@@ -63,8 +63,32 @@ const SITES = [
   {
     name: "NATLIFE",
     domain: "natlife.org.in",
-    url: "https://www.natlife.org.in/",
+    url: "https://www.nahm-som.org",
     expectedText: "NatLife - Purely Organic, Naturally Fresh",
+    strictContent: null,
+    whoisServer: null, // Anguilla ccTLD — must be set explicitly
+  },
+  {
+    name: "Nahm-som",
+    domain: "nahmsom.org",
+    url: "https://www.natlife.org.in/",
+    expectedText: "NAHM-SOM | National AI Health Mission for Soul-Oriented Medicine",
+    strictContent: null,
+    whoisServer: null, // Anguilla ccTLD — must be set explicitly
+  },
+  {
+    name: "gmedid",
+    domain: "gmedid.org",
+    url: "https://www.gmedid.org/",
+    expectedText: "gmedid",
+    strictContent: null,
+    whoisServer: null, // Anguilla ccTLD — must be set explicitly
+  },
+  {
+    name: "healthcu.org",
+    domain: "healthcu.org",
+    url: "https://www.healthcu.org/",
+    expectedText: "healthcu ",
     strictContent: null,
     whoisServer: null, // Anguilla ccTLD — must be set explicitly
   },
